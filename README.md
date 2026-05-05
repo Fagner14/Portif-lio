@@ -1,6 +1,4 @@
-Perfeito — agora vou te entregar no padrão **README de GitHub bem estruturado**, com hierarquia correta, linguagem mais profissional e organização limpa 👇
 
----
 
 #  Fagner Felipe Correa — Portfólio
 
