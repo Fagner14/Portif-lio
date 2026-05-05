@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fagner Felipe Correa – Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Cursor personalizado -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Fundo decorativo -->
+  <div class="bg-grid"></div>
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">FC</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">
+      Fale comigo
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-tag">Disponível para estágio</div>
+      <h1 class="hero-title">
+        <span class="line">Fagner</span>
+        <span class="line accent">Felipe</span>
+        <span class="line">Correa</span>
+      </h1>
+      <p class="hero-sub">Estudante de Ciência de Dados · USP São Carlos</p>
+      <p class="hero-desc">
+        Transformo dados em decisões. Apaixonado por análise, governança de dados
+        e tecnologia com impacto real.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#projetos">Ver projetos</a>
+        <a class="btn-outline" href="mailto:fagnerf2correa@gmail.com">Entrar em contato</a>
+      </div>
+      <div class="hero-scroll">
+        <span>Role para baixo</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section" id="sobre">
+      <div class="section-label">01 · Sobre mim</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Quem sou eu</h2>
+          <p>
+            Sou estudante de Ciência de Dados na Universidade de São Paulo (USP – São Carlos),
+            com forte interesse em tecnologia, análise de dados e inovação.
+          </p>
+          <p>
+            Ao longo da minha trajetória acadêmica, venho unindo teoria e prática,
+            desenvolvendo habilidades analíticas, pensamento crítico e organização —
+            sempre com foco em aprendizado contínuo e aplicação no mercado de trabalho.
+          </p>
+          <p>
+            Tenho experiência com ferramentas ligadas à gestão e qualidade de dados,
+            automação e análise de informações, cybersegurança além de familiaridade com ambientes
+            que exigem responsabilidade, clareza na comunicação e atenção aos detalhes.
+          </p>
+          <p>
+            Meu objetivo é consolidar minha formação acadêmica, adquirir experiências
+            relevantes e contribuir de forma significativa em projetos que envolvam
+            dados, tecnologia e tomada de decisão.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Projetos</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">USP</span>
+            <span class="stat-label">São Carlos</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2026</span>
+            <span class="stat-label">Ano Atual</span>
+          </div>
+          <div class="stat-card highlight">
+            <span class="stat-num">Data</span>
+            <span class="stat-label">Science</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section" id="projetos">
+      <div class="section-label">02 · Projetos &amp; Experiências</div>
+      <h2 class="section-title">O que já construí</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-index="0">
+          <div class="project-num">01</div>
+          <div class="project-tag">Dados · QA</div>
+          <h3>Governança e QA de Dados</h3>
+          <p>Criação de listas de QA, validação de campos críticos e automações para garantir qualidade e consistência dos dados em escala.</p>
+          <div class="project-arrow">→</div>
+        </div>
+
+        <div class="project-card" data-index="1">
+          <div class="project-num">02</div>
+          <div class="project-tag">Automação</div>
+          <h3>Pipelines e Workflows(HubSpot)</h3>
+          <p>Desenvolvimento de pipelines personalizados e workflows automatizados para acompanhamento de métricas e eficiência operacional.</p>
+          <div class="project-arrow">→</div>
+        </div>
+
+        <div class="project-card" data-index="2">
+          <div class="project-num">03</div>
+          <div class="project-tag">Documentação</div>
+          <h3>Documentação Técnica</h3>
+          <p>Produção de estudos e documentações detalhadas para suporte a decisões estratégicas e manutenção de processos internos.</p>
+          <div class="project-arrow">→</div>
+        </div>
+
+        <div class="project-card" data-index="3">
+          <div class="project-num">04</div>
+          <div class="project-tag">Web · Frontend</div>
+          <h3>Site Estudantil – Colégio Técnico</h3>
+          <p>Toda a estruturação e desenvolvimento do site estudantil para o Colégio Técnico, construído do zero em HTML, CSS e JavaScript como trabalho de conclusão de curso.</p>
+          <div class="project-arrow">→</div>
+        </div>
+
+        <div class="project-card featured" data-index="4">
+          <div class="project-num">05</div>
+          <div class="project-tag">Cybersecurity</div>
+          <h3>CyberLab: Laboratório Educacional de Cibersegurança em Python</h3>
+          <p>Projeto educacional desenvolvido em Python que reúne ferramentas básicas para estudo de segurança da informação, incluindo scanner de portas TCP, detector simples de vulnerabilidades e simulador de brute force baseado em hash local. O foco é proporcionar aprendizado prático em ambientes controlados, sem interação com serviços reais.</p>
+          <div class="project-arrow">→</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="section" id="habilidades">
+      <div class="section-label">03 · Habilidades</div>
+      <h2 class="section-title">Minhas ferramentas</h2>
+      <div class="skills-wrapper">
+        <div class="skills-category">
+          <div class="category-title">Dados &amp; Análise</div>
+          <div class="skill-pill">Análise de Dados</div>
+          <div class="skill-pill">Governança e QA</div>
+          <div class="skill-pill">Importação / Exportação de Dados</div>
+        </div>
+        <div class="skills-category">
+          <div class="category-title">Tecnologia</div>
+          <div class="skill-pill">Automação de Processos</div>
+          <div class="skill-pill">HubSpot</div>
+          <div class="skill-pill">Desenvolvimento Frontend</div>
+          <div class="skill-pill">Python</div>
+          <div class="skill-pill">PHP</div>
+          <div class="skill-pill">C++</div>
+          <div class="skill-pill">Assembly</div>
+        </div>
+        <div class="skills-category">
+          <div class="category-title">Soft Skills</div>
+          <div class="skill-pill">Documentação Técnica</div>
+          <div class="skill-pill">Trabalho em Equipe</div>
+          <div class="skill-pill">Comunicação Clara</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section" id="contato">
+      <div class="section-label">04 · Contato</div>
+      <h2 class="section-title">Vamos conversar?</h2>
+      <p class="contact-desc">
+        Estou aberto a estágios, projetos colaborativos e novas oportunidades.
+        Entre em contato por qualquer um dos canais abaixo.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:fagnerf2correa@gmail.com" class="contact-card">
+          <span class="contact-icon">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">fagnerf2correa@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/fagner-correa-138a2134b/" target="_blank" class="contact-card">
+          <span class="contact-icon">in</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">fagner-correa</span>
+        </a>
+        <a href="https://github.com/Fagner14" target="_blank" class="contact-card">
+          <span class="contact-icon">⌥</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">Fagner14</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 · Fagner Felipe Correa</span>
+    <span>Feito com dedicação</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
