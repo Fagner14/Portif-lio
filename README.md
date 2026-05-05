@@ -18,11 +18,11 @@ A aplicação apresenta um design moderno, interativo e responsivo, priorizando 
 
 Neste portfólio, você encontrará:
 
-* 📊 Projetos de análise e qualidade de dados (QA)
-* ⚙️ Automação de processos e workflows (HubSpot)
-* 📄 Documentação técnica
-* 🌐 Projetos de desenvolvimento frontend
-* 🔐 Projeto educacional de cibersegurança em Python
+*  Projetos de análise e qualidade de dados (QA)
+*  Automação de processos e workflows (HubSpot)
+*  Documentação técnica
+*  Projetos de desenvolvimento frontend
+*  Projeto educacional de cibersegurança em Python
 
 ---
 
